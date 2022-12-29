@@ -100,6 +100,7 @@
         <p class="lead">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
         </p>
+        <a href="/documentos" class="stretched-link"></a>
       </div>
 
       <div class="icono">

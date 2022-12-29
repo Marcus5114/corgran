@@ -11,39 +11,30 @@
   </head>
   <body>
       
-      <div class="text-center p-5">
-      <h1>Sitio en Mantenimienta</h1>
-      
-      <h3>Estamos construyendo nuestro nuevo portal web para traerte la mejor experiencia</h3>
-      
-      <p class="lead">Pronto vas a poder acceder al sistema y conocer toda la información de tu Colegiatura</p>
-      
-      <br>
-      <img class="img-fluid" src="images/logo.png">
-      </div>
+      <!---->
 
-    <!-- NAVBAR --
+    <!-- NAVBAR -->
 
-    include('layouts.navbar')
+    @include('layouts.navbar')
 
     <!-- FIN NAVBAR -->
     
-    <!--<div class="container-fluid">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-1"></div>
         
         <div class="col-md-10">
 
-            yield('content')
+          @yield('content')
 
         </div>
 
         <div class="col-md-1"></div>
       </div>
-    </div>-->
+    </div>
 
 
-    <!--include('layouts.footer')-->
+    <!--include('layouts.footer')
   
 
   </body>

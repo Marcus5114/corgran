@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\ColegiadoController;
-use App\Http\Controllers\Pruebacontroller;
+use App\Http\Controllers\DocumentoController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,8 +18,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('mantenimiento');
+});
+
+Route::get('/sitio', function () {
     return view('app');
 });
+
+Route::get('/documentos', [DocumentoController::class, 'index']);
 
 
 
