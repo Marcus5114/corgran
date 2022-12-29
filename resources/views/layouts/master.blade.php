@@ -12,7 +12,7 @@
   <body>
       
       <div class="text-center p-5">
-      <h1>Sitio en Mantenimiento</h1>
+      <h1>Sitio en Mantenimienta</h1>
       
       <h3>Estamos construyendo nuestro nuevo portal web para traerte la mejor experiencia</h3>
       
