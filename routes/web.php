@@ -22,7 +22,7 @@ Route::get('/', function () {
 });
 
 Route::get('/sitio', function () {
-    return view('app');
+    return view('index');
 });
 
 Route::get('/documentos', [DocumentoController::class, 'index']);
