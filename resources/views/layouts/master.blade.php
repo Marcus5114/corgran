@@ -34,7 +34,7 @@
     </div>
 
 
-    <!--include('layouts.footer')
+    <!--include('layouts.footer')-->
   
 
   </body>
